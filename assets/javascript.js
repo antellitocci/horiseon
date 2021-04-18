@@ -1,4 +1,4 @@
-
+//create a variable to retrieve the button
 topButton = document.getElementById("toTopButton");
 
 //When user scrolls down 76px from the top (Header size) of the document, show button
@@ -7,8 +7,7 @@ window.onscroll = function() {scrollFunction()};
 //Scroll function
 function scrollFunction()
 {
-    //create a variable to retrieve the button
-    topButton = document.getElementById("toTopButton");
+
 
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)
     {
