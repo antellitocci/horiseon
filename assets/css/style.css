@@ -1,22 +1,27 @@
-* {
+* 
+{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Apply style to <body> */
-body {
+/* <body> style start*/
+body 
+{
     background-color: #d9dcd6;
 }
+/* <body> style end */
 
 /* Return to top button styling start */
 #toTopButton
 {
+    display: none;
     cursor: pointer;
     border: none;
     outline: none;
     width: 65px;
     height: 65px;
+    z-index: 9999;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -28,23 +33,25 @@ body {
     height: 65px;
     width: 65px;
 }
-
 /* Return to top button styling end */
 
 /* <header> styles start */
-header {
+header 
+{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+header h1 
+{
     display: inline-block;
     font-size: 48px;
 }
 
-header nav {
+header nav 
+{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -52,16 +59,19 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+header nav ul 
+{
     list-style-type: none;
 }
 
-header nav ul li {
+header nav ul li 
+{
     display: inline-block;
     margin-left: 25px;
 }
 
-header .seo {
+header .seo 
+{
     color: #d9dcd6;
 }
 /* <header> styles end*/
@@ -75,22 +85,28 @@ footer
     text-align: center;
 }
 
-footer h2 {
+footer h2 
+{
     font-size: 20px;
 }
 /* <footer> styles end */
 
-a {
+/* specific styling of generic html elements styling start*/
+a 
+{
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p 
+{
     font-size: 16px;
 }
+/* generic html element styling end */
 
-/* Hero styles begin */
-.hero {
+/* Hero styles start */
+.hero 
+{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -101,7 +117,8 @@ p {
 /* Hero styles end */
 
 /* Content section styling begins */
-.content {
+.content 
+{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -117,18 +134,21 @@ p {
     color: #ffffff;
 }
 
-.content img {
+.content img 
+{
     max-height: 200px;
 }
 
-.content h2 {
+.content h2 
+{
     margin-bottom: 20px;
     font-size: 36px;
 }
 /* Content section styling ends */
 
 /* Benefits section styling begin */
-.benefits {
+.benefits 
+{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -160,12 +180,14 @@ p {
 /* Benefits section styling end */
 
 /* Utility classes style start */
-.float-left {
+.float-left 
+{
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right 
+{
     float: right;
     margin-left: 25px;
 }

@@ -1,10 +1,10 @@
 //create a variable to retrieve the button
 topButton = document.getElementById("toTopButton");
 
-//When user scrolls down 76px from the top (Header size) of the document, show button
+//When user scrolls down 500px from the top (Header size) of the document, show button
 window.onscroll = function() {scrollFunction()};
 
-//Scroll function
+//Scroll function to change display type of button when a user scrolls on the screen.
 function scrollFunction()
 {
 
