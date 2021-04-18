@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/*Apply style to <body> */
+/* Apply style to <body> */
 body {
     background-color: #d9dcd6;
 }
@@ -39,11 +39,24 @@ header nav ul li {
     margin-left: 25px;
 }
 
-.seo {
+header .seo {
     color: #d9dcd6;
 }
-
 /* <header> styles end*/
+
+/* <footer> styles start */
+footer 
+{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/* <footer> styles end */
 
 a {
     color: #ffffff;
@@ -54,6 +67,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero styles begin */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,48 +76,14 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero styles end */
 
-
-
+/* Content section styling begins */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-
-/* Benefits section styling begin */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefits div
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits h3 
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits div img
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Benefits section styling end */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -158,20 +138,39 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Content section styling ends */
 
-/* Footer styles start */
-footer {
-    padding: 30px;
+/* Benefits section styling begin */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefits div
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 
+{
+    margin-bottom: 10px;
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
+.benefits div img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-/* Footer styles end */
-
+/* Benefits section styling end */
 
 /* Utility classes style start */
 .float-left {
